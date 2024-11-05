@@ -1,0 +1,28 @@
+body{
+    background-image: url(https://images.pexels.com/photos/3178786/pexels-photo-3178786.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2);
+
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   height: 100vh;
+
+}
+form{
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+
+    input{
+        background-color: transparent;
+        padding: .5em 1em;
+        border: 1px solid whitesmoke;
+    };
+}
+.btn{
+    padding: .5em 1em;
+    transition: 1s all  ease;
+}
+.btn:hover{
+    background-color: black;
+    color: white;
+}
